@@ -1,0 +1,55 @@
+/* src/index.css */
+
+
+/* Button grid container */
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+
+/* Individual button row */
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+    /* To space out buttons equally */
+    width: 100%;
+}
+
+
+/* Individual button styles */
+
+.calculator-button {
+    padding: 20px;
+    font-size: 1.5em;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Button hover effect */
+
+.calculator-button:hover {
+    background-color: #ddd;
+}
+
+
+/* Special button colors (e.g., clear and equal) */
+
+.calculator-button.clear {
+    background-color: #ff6666;
+    color: white;
+}
+
+.calculator-button.equal {
+    background-color: #4caf50;
+    color: white;
+}
